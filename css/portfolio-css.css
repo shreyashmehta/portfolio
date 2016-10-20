@@ -63,10 +63,20 @@ figcaption {
 	cursor: pointer;
 	border-radius: 15px;
 	border: none;
+	transition-duration: 0.4s;
 }
+
+
+.buttons:hover {
+	background-color: white;
+	color: black;
+	text-decoration: underline;
+}
+
 
 .button-deco {
 	text-align: center;
+	padding-bottom: 25px;
 }
 
 
@@ -168,3 +178,4 @@ figcaption {
 		width: 100%;
 	}
 }
+
